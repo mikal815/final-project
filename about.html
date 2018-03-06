@@ -5,7 +5,8 @@
     <title>About</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <div id="crafty-title">
@@ -25,5 +26,19 @@
           <a href="about.html"><li>About</li></a>
         </ul>
     </div>
+    <ul class="fly-in-text hidden">
+      <li>A</li>
+      <li>B</li>
+      <li>O</li>
+      <li>U</li>
+      <li>T</li>
+      <li>M</li>
+      <li>E</li>
+    </ul>
+    <script>
+    setTimeout(function(){
+            $('.fly-in-text').removeClass('hidden')
+          }, 500);
+    </script>
   </body>
 </html>
