@@ -244,6 +244,11 @@ footer {
   display: block;
 }
 
+#mom-dad {
+  float: right;
+  margin-top: 200px;
+}
+
 .fly-in-text {
   list-style: none;
   position: absolute;
@@ -278,6 +283,17 @@ fly-in-text.hidden li {
 .fly-in-text.hidden li:nth-child(6) {transform: translateX(20px) translateY(-20px);}
 .fly-in-text.hidden li:nth-child(7) {transform: translateX(30px) translateY(200px);}
 
+#mom-dad img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -80px;
+}
+
+#lorem {
+  clear: both;
+  text-align: center;
+  padding-top: 10px;
+}
 
 @media all and (min-width: 900px) {
   .row.one {
@@ -315,4 +331,9 @@ fly-in-text.hidden li {
     max-width: 100%;
     height: auto;
   }
+
+  #mom-dad {
+    padding-top: 25px;
+  }
+
 }
